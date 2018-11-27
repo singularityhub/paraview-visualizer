@@ -33,7 +33,7 @@ From: kitware/paraviewweb:pv-osmesa-v5.6.0
     pwd
     cat > /usr/local/bin/start.sh << EOF
 #! /bin/bash
-/opt/paraview/install/bin/pvpython \
+/opt/paraview/install/bin/pvpython ${EXTRA_PVPYTHON_ARGS} \
     /opt/paraview/install/share/paraview-5.6/web/visualizer/server/pvw-visualizer.py \
     --content /opt/paraview/install/share/paraview-5.6/web/visualizer/www \
     --port 8080 \
