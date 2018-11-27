@@ -37,8 +37,8 @@ running on that port.
 # Credits
   Huge thanks to:
 
-    - [@jourdain](https://github.com/jourdain)
-    - [@trophime](https://github.com/trophime)
+  - [@jourdain](https://github.com/jourdain)
+  - [@trophime](https://github.com/trophime)
 
 
 ## Interactive shell
